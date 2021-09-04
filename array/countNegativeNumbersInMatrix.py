@@ -23,6 +23,7 @@ n = len(grid[0])
 
 for i in range(m):
     for j in range(n):
+        print(grid[i][j])
         if grid[i][j] <0:
             count+=1
 print(count)
