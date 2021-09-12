@@ -62,4 +62,4 @@ if __name__=='__main__':
     x,y=findMissingConsecutive(arr,len(arr))
     
     print(x,y)
-            
+    
