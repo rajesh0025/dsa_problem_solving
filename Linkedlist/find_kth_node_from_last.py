@@ -41,7 +41,7 @@ class LinkedList:
             print(current.info)
             current = current.link
     
-    def kthfromlast_1(self,k):#o(n),o(1)  and 2 traversals
+    def kthfromlast_1(self,k):#o(n),o(1) and 2 traversals
         n=0
         current = self.head
         while current.link != None:
